@@ -34,12 +34,25 @@ main{
   background-color: #57a8d9;
 }
 
+.row{
+  width: 100%;
+  height: 300px;
+  background-color: red;
+}
+
+.foto-container{
+  height: 300px;
+  width: 33%;
+  background-color: #eee;
+}
+
+
 /*UTILITIES*/
 
 .border-bottom{
   border-bottom: 5px solid #57a8d9;
 }
-
+/*END UTILITIES*/
 footer{
   height: 300px;
   background-color: #000;
