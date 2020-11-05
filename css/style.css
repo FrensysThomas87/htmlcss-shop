@@ -6,7 +6,7 @@
 
 .rows-container{
   width: 1000px;
-  height: 600px;
+  height: 800px;
   margin: 0 auto;
   background-color: red;
   position: relative;
@@ -15,8 +15,6 @@
 .row{
   width: 100%;
   height: 300px;
-  border-bottom: 1px solid #000;
-
 }
 
 .foto-container{
@@ -26,6 +24,9 @@
   display: inline-block;
   text-align: center;
   position: relative;
+  border: 1px solid black;
+  position: relative;
+
 
 }
 
@@ -55,6 +56,11 @@
 
 }
 
-.row .foto-container:nth-child(2) span{
+.row .foto-container:nth-child(2) .badge{
   background-color: red;
+}
+
+.row.2{
+  position: absolute;
+  top:800px;
 }
