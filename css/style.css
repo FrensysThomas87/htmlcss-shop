@@ -45,4 +45,10 @@
   width: 100%;
   top: 270px;
   color: red;
+  display: none;
+}
+
+.foto-container:hover .cuore-container{
+  display: block;
+
 }
