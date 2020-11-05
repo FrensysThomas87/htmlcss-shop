@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 200px;
+  color: #57a8d9;
+  background-color: #000;
+  text-align: center;
+  border-bottom: 5px solid #57a8d9;
+  position: fixed;
+}
+
+header > h1{
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+main{
+  background-color: #000;
+}
+
+.foto-container{
+  margin: 0 auto;
+  width: 1000px;
+  height: 800px;
+  background-color: #57a8d9;
+}
