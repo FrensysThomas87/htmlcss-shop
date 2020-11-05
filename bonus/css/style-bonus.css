@@ -44,6 +44,10 @@ main{
   height: 300px;
   width: 33%;
   background-color: #eee;
+  background : url(../img/pd1.jpg) center no-repeat;
+  background-size: contain;
+
+
 }
 
 
