@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
+/*HEADER*/
 header{
   width: 100%;
   height: 150px;
-  color: #57a8d9;
   background-color: #000;
   text-align: center;
   position: fixed;
@@ -20,6 +20,7 @@ header > h1{
   vertical-align: middle;
   line-height: 150px;
 }
+/*END HEADER*/
 
 main{
   background-color: #000;
@@ -27,27 +28,36 @@ main{
 
 }
 
-.row-container{
+.row-container{ /*CONTENITORE RIGHE*/
   margin: 10px auto;
   width: 1000px;
-  height: 600px;
-  background-color: #57a8d9;
+  height: 650px;
+
+
 }
 
-.row{
+.row{ /*RIGHE*/
   width: 100%;
   height: 300px;
-  background-color: red;
+  margin-bottom: 15px;
+
 }
 
-.foto-container{
+.foto-container{ /*CONTENITORE FOTO*/
+  width: 33%;
   height: 300px;
-  width: 300px;
   background-color: #eee;
   background : url(../img/pd1.jpg) center no-repeat;
-  background-size:contain contain;
+  background-size: cover;
+  display: inline-block;
+}
 
+.row .foto-container:nth-child(2){
+  background : url(../img/pd2.jpg) center no-repeat;
+}
 
+.row .foto-container:nth-child(3){
+  background : url(../img/pd3.jpg) center no-repeat;
 }
 
 
@@ -56,8 +66,14 @@ main{
 .border-bottom{
   border-bottom: 5px solid #57a8d9;
 }
+
+.color-light-blue{
+  color: #57a8d9;
+}
 /*END UTILITIES*/
 footer{
   height: 300px;
   background-color: #000;
+  padding: 10px;
+  text-align:center;
 }
