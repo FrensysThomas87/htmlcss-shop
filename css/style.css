@@ -1,0 +1,12 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rows-container{
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: red;
+}
