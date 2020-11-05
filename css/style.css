@@ -4,46 +4,44 @@
   box-sizing: border-box;
 }
 
-.rows-container{
+
+.rows-container{ /*contenitore delle due righe*/
   width: 1000px;
-  height: 800px;
+  height: 750px;
   margin: 0 auto;
-  background-color: red;
   position: relative;
 }
 
-.row{
+.row{ /*riga delle foto*/
   width: 100%;
   height: 300px;
+  margin-bottom: 15px;
 }
 
-.foto-container{
+.foto-container{ /*contenitore della singola foto*/
   width: 33%;
   height: 300px;
   background-color: #eee;
   display: inline-block;
   text-align: center;
   position: relative;
-  border: 1px solid black;
   position: relative;
-
-
 }
 
-.badge{
+.badge{ /*sconto*/
   position: absolute;
   background-color: green;
   top: 0;
   right: 0;
 }
 
-.foto{
+.foto{ /*foto*/
   width: 250px;
   height: 300px;
 
 }
 
-.cuore-container{
+.cuore-container{ /*cuoricino preferiti*/
   position: absolute;
   width: 100%;
   top: 270px;
@@ -51,16 +49,13 @@
   display: none;
 }
 
-.foto-container:hover .cuore-container{
+
+
+.foto-container:hover .cuore-container{ 
   display: block;
 
 }
 
 .row .foto-container:nth-child(2) .badge{
   background-color: red;
-}
-
-.row.2{
-  position: absolute;
-  top:800px;
 }
