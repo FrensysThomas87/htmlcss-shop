@@ -39,7 +39,7 @@
 .foto{
   width: 250px;
   height: 300px;
-  
+
 }
 
 .cuore-container{
@@ -53,4 +53,8 @@
 .foto-container:hover .cuore-container{
   display: block;
 
+}
+
+.row .foto-container:nth-child(2) span{
+  background-color: red;
 }
